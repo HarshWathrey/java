@@ -12,5 +12,7 @@ public class class_object{
     public static void main(String[] args) {
         Student obj=new Student ("rohit",15);
         Student obj1 = new Student ("Rahul", 16);
+        System.out.println(obj.firstname);
+        System.out.println(obj1.firstname);
     }
 }
