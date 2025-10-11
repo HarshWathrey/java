@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parent{
+    margin: 10px;
+    height: 300px;
+    width: 250px;
+    background-color: whitesmoke;
+    border-radius: 11px;
+    position: relative;
+}
+#child-a{
+    height: 50%;
+    width: 40%;
+}
+#child-b{
+    height: 70%;
+    width: 100%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+child-a img{
+    height: 50%;
+    width: 100%; 
+}
+child-b img{
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+
+}
