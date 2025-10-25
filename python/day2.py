@@ -2,11 +2,8 @@ a = 10
 b= 20
 c= 30
 
-if (a>=b) and (a>=c):
-    Largest = a
-elif (b>=c) and (b>=c):
-    Largest = b
-else:
-    Largest = c
-
-print("Largest Num is:-", Largest)
+a=a^b^c
+b=a^b^c
+c=a^b^c
+a=a^b^c
+print(a,b,c)
